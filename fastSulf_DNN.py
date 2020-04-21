@@ -15,12 +15,12 @@ X_tst = ind_dataset.iloc[:,0:]
 
 from keras.models import model_from_json
 # load json and create model
-json_file = open('model.json', 'r')
+json_file = open('model/model.json', 'r')
 loaded_model_json = json_file.read()
 json_file.close()
 loaded_model = model_from_json(loaded_model_json)
 # load weights into new model
-loaded_model.load_weights("model.h5")
+loaded_model.load_weights("model/model.h5")
 print("Loaded model from disk")
 
 preds = loaded_model.predict(X_tst) 
