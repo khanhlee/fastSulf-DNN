@@ -5,6 +5,7 @@ Protein S-sulfenylation is one kind of crucial post-translational modifications 
 
 ### Step 1
 Install FastText package via the instructions here: https://github.com/facebookresearch/fastText
+
 Install Keras package via the instructions here: https://keras.io/#installation
 
 ### Step 2
