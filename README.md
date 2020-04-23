@@ -19,3 +19,7 @@ Print vectors using FastText model:
 ### Step 4
 Use "fastSulf_DNN.py" to evaluate the generated file:
 - *python fastSulf_DNN.py vector_file*
+
+The prediction results:
+- "1": S-sulfenylation site
+- "0": non S-sulfenylation site
