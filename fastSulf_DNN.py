@@ -11,7 +11,7 @@ tst_file = sys.argv[1]
 # load independent dataset
 ind_dataset = pd.read_csv(tst_file, header=None, delimiter=' ')
 
-X_tst = ind_dataset.iloc[:,0:]
+X_tst = ind_dataset.iloc[:,0:].values
 
 from keras.models import model_from_json
 # load json and create model
@@ -24,4 +24,4 @@ loaded_model.load_weights("model/model.h5")
 print("Loaded model from disk")
 
 preds = loaded_model.predict(X_tst) 
-print(preds)
+print(preds.argmax(axis=-1))
