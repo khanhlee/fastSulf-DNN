@@ -21,6 +21,6 @@ Use "fastSulf_DNN.py" to evaluate the generated file:
 - *python fastSulf_DNN.py vector_file*
 
 ### Step 5
-Reading the prediction results:
+Read the prediction results:
 - "1": S-sulfenylation site
 - "0": non S-sulfenylation site
