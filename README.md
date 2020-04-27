@@ -8,7 +8,7 @@ Protein S-sulfenylation is one kind of crucial post-translational modifications 
 - fastText: https://github.com/facebookresearch/fastText
 - Keras 2: https://keras.io/#installation
 
-### Prediction step-by-step
+### Prediction step-by-step:
 ### Step 1
 Use "fasttext_generated.py" file to transform FASTA sequence into FastText format
 - *python fasttext_generated.py fasta_file fasttext_file*
