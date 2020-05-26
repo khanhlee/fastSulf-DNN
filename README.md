@@ -25,3 +25,7 @@ Use "fastSulf_DNN.py" to evaluate the generated file:
 Read the prediction results:
 - "1": S-sulfenylation site
 - "0": non S-sulfenylation site
+
+## Citation
+Please cite our paper as:
+>Do DT, Le TQT, and Le NQK (2020) Using deep neural networks and biological sub-words to detect protein S-sulfenylation sites. *Briefings in Bioinformatics.* In press.
