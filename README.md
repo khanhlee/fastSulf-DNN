@@ -28,4 +28,4 @@ Read the prediction results:
 
 ## Citation
 Please cite our paper as:
->Do DT, Le TQT, and Le NQK (2020) Using deep neural networks and biological sub-words to detect protein S-sulfenylation sites. *Briefings in Bioinformatics.* In press.
+>Do DT, Le TQT, and Le NQK (2020) Using deep neural networks and biological sub-words to detect protein S-sulfenylation sites. *Briefings in Bioinformatics.* https://doi.org/10.1093/bib/bbaa128.
